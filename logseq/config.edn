@@ -7,7 +7,7 @@
  ;; Preferred workflow style.
  ;; Value is either ":now" for NOW/LATER style,
  ;; or ":todo" for TODO/DOING style.
- :preferred-workflow :now
+ :preferred-workflow :todo
 
  ;; Git is only available in web app
  ;; Git settings
@@ -168,4 +168,7 @@
  :graph/settings {:builtin-pages? false, :journal? true, :orphan-pages? true, :excluded-pages? true}
  :publishing/all-pages-public? true
  :favorites ["Inculcation"]
- :default-home {:page "Inculcation"}}
+ :default-home {:page "Inculcation"}
+ :file/name-format :triple-lowbar
+ :feature/enable-flashcards? false
+ :feature/enable-timetracking? false}
