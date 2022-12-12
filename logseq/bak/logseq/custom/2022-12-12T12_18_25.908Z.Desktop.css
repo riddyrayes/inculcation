@@ -6,7 +6,7 @@
     unicode-range: U+0980–09FF;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,800&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Fira Code:ital,wght@0,200;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,800&display=swap'); */
 
 
 :root {
@@ -35,7 +35,7 @@
   --ls-tag-text-hover-opacity: 0.8;
   --ls-page-text-size: 16px;
   --ls-page-title-size: 36px;
-  --ls-font-family: 'Fira Cide',  "Noto Serif Bengali";
+  --ls-font-family: 'Fira Code',  "Noto Serif Bengali";
   --ls-font-weight: 300;
   --ls-font-letter-spacing: 0em;
   --ls-font-line-height: 1.5;
@@ -141,7 +141,7 @@ body {
 
 i {
   color: var(--yellow);
-  font-family: "Karla"
+  font-family: "Fira Code";
 }
 
 b {
@@ -563,8 +563,8 @@ div.items-center::after,
 }
 
 
-/* no display */
+/* no display 
 
 .ls-page-title.flex-1.flex-row.w-full {
   display: none;
-}
+}*/
