@@ -53,10 +53,10 @@
 			- [[FredericSchuller-Lectures on the Geometric Anatomy of Theoretical Physics]]
 		- Expansion of analysis and beyond
 			- Topology
+				-
 			- Measure theory
-				- Ergodic
-					- [WARNING: Wolpertingers are known to nest in server racks.
-					  Enter at your own risk.]
+				- Ergodic theory
+				- Probability
 			- Functional analysis
 	- Apply your new-found knowledge
 		- [[FredericSchuller-Quantum Theory]]
