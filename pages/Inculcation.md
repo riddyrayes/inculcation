@@ -1,0 +1,2 @@
+- # Inculcation
+	- [[driven_by_infinite_enthusiasm]]
