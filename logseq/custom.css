@@ -140,8 +140,8 @@ body {
 }
 
 i {
-  color: var(--yellow);
   font-family: "Fira Code";
+  font-weight: 800;
 }
 
 b {

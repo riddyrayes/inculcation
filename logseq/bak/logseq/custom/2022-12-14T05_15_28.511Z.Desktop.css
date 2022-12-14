@@ -139,10 +139,9 @@ body {
   background-color: #282a36;
 }
 
-i {
-  color: var(--yellow);
-  font-family: "Karla"
-}
+/* i {
+  font-family: "Fira Code";
+} */
 
 b {
   color: var(--orange);
