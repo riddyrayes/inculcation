@@ -22,6 +22,12 @@
 		- Chapters 2, 6-8 from ((63971467-7987-4f85-989d-47792d81d4a2))
 			- Topology
 	- ### Classical Mechanics, bit of statistical and chaos
+		- sadly no really good references imo
+			- try doing (Newtonian mechanics)
+				- rigid bodies
+				- central forces
+				- n-body problem with different force laws
+					- #question Which force law produces simple solutions for the n-body problem? ~~Hint: Newton answers this in principia~~
 		- [[Balakrishnan_Classical_Physics]]
 		- #book LandauL volume I
 		- [Non-linear dynamics by Balki](https://www.youtube.com/watch?v=nh4TFzg30eQ&list=PLbMVogVj5nJQKk1E7OUQs_TcW_zQoaO4t)
@@ -41,18 +47,25 @@
 		- ### Classical statistical mechanics
 			- The main expectation from statistical mechanics is to derive all of thermodynamics with bare minimum assumptions from simple mechanics.
 			- But is this possible?
-			- [Lecture notes on Mathematical Statistical Mechanics (uni-tuebingen.de)](https://www.math.uni-tuebingen.de/de/forschung/maphy/lehre/ss-2019/statisticalphysics/dateien/lecture-notes.pdf)
+			- [Lecture notes on Mathematical Statistical Mechanics (uni-tuebingen.de)](https://www.math.uni-tuebingen.de/de/forschung/maphy/lehre/ss-2019/statisticalphysics/dateien/lecture-notes.pdf) is a good one
+			- MIT, and general pedagogy go exactly opposite to the main expectation
+			- #book **Statistical Mechanics: From Thermodynamics to the Renormalization Group by James H. Luscombe** has a derivation of the combined first and second law of thermodynamics
 			- ((63b91d41-a8a0-44c1-a82b-f7f9838ca04d))
 		- ### Fluid mechanics
 			- If you think you know what fluid mechanics is (from school, say), I guarantee that you do not!
+			- #lectures [Fluid Dynamics for Astrophysics - YouTube](https://www.youtube.com/watch?v=sS3atz1XdsI&list=PLlFCvH2vR5kSvwk53gINGDA9FyJbOX5kx)
+				- only decent, maybe won't convince you, maybe the below videos would...
+			- [Why 5/3 is a fundamental constant for turbulence - YouTube](https://www.youtube.com/watch?v=_UoTTq651dE)
+			- [Turbulent Flow is MORE Awesome Than Laminar Flow - YouTube](https://www.youtube.com/watch?v=5zI9sG3pjVU&t=842s)
 		- ### Special Relativistic Mechanics and Electrodynamics
 			- #book LandauL volume II - absolute necessary for special relativity and electrodynamics, and GR
 				- there’s no introduction to electrodynamics better than Paddy and LandauL
 			- for more theory Griffiths, and for more pain: Jackson
-			- TODO [[Electromagnetic_Circuitry]]
+			- TODO [[Electromagnetic_Circuitry]] - practically no proper references, wanna do it problerly, seems it eventually leads to fluid(-like) equations
 		- ### GR
 			- > for properly doing GR, you’ll need a lot of pre-req, and its all super cool math! But for now a physics taste of the matter will just be smooth.
 			- General Relativity and Cosmology by T Paddy
+			- if you wanna do it properly go for ((63afb3b0-55df-4e93-b06d-2a1b86b50dff))
 	- ## (only if you wanna do quantum)
 		- Quantum Physics by Balki
 		- Chapters 23-25 from ((63971467-7987-4f85-989d-47792d81d4a2))
@@ -74,17 +87,26 @@
 					- Total derivative of functions
 					- Integrating: Differential forms
 				- ##### Differential geometry of submanifolds of $\mathbb{R}^{n}$
+					- #lecturenotes [diffgeo.pdf (ethz.ch)](https://people.math.ethz.ch/~salamon/PREPRINTS/diffgeo.pdf)
+						- One can distinguish extrinsic differential geometry and intrinsic differential geometry. The former restricts attention to submanifolds of Euclidean space while the latter studies manifolds equipped with a Riemannian metric. The extrinsic theory is more accessible because we can visualize curves and surfaces in $\mathbb{R}^{3}$ , but some topics can best be handled with the intrinsic theory. ...
 			- #### Analysis in finite-dim normed vector spaces
 		- ### *Measure spaces* (measure theory)
-		- > Go outside of $\mathbb{R}^{n}$: there are two routes: analysis on manifolds (classical mechanics, Hamiltonian systems) and analysis on function spaces (quantum mechanics, PDEs)
+		- > Go outside of $\mathbb{R}^{n}$
+			- there are two routes:
+				- analysis on manifolds (classical mechanics, Hamiltonian systems)
+				- analysis on function spaces (quantum mechanics, PDEs)
 		- ### Inside (smooth) manifolds
+		  > this is the *intrinsic differential geometry*
 			- #book Lee - Smooth manifolds
 			- #book Boothby - manifolds
-			- [[FredericSchuller-International Winter School on Gravity and Light 2015]]
+			- [Frederic Schuller -International Winter School on Gravity and Light 2015](https://www.youtube.com/playlist?list=PLFeEvEPtX_0S6vxxiiNPrJbLu9aK1UVC_)
+			  id:: 63afb3b0-55df-4e93-b06d-2a1b86b50dff
 			- [[FredericSchuller-Lectures on the Geometric Anatomy of Theoretical Physics]]
-		- ### Inside infinite-dim spaces (Functional analysis)
+		- ### Inside infinite-dim spaces (functional analysis)
+			- ofcourse I've no idea about this
 	- ## apply your new-found knowledge
 		- ### Dynamical systems
+			- #talk [Mathematics of Turbulent Flows: A Million Dollar Problem! by Edriss S Titi - YouTube](https://www.youtube.com/watch?v=VH4oawCiHPU)
 			- Hamiltonian systems and symplectic geometry
 			- PDEs
 		- [[FredericSchuller-Quantum Theory]]
