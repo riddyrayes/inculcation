@@ -1,5 +1,5 @@
 # Driven by Infinite Enthusiasm
-	-
+	- All opinion are strictly mine.
 - # What to study? Where to study from?
   > (order is not strict, life is very *non-linear*)
 	- ### Groups
@@ -37,6 +37,11 @@
 			- #lectures [ICTP Diploma - Differential Geometry - Claudio Arezzo - YouTube](https://www.youtube.com/playlist?list=PLLq_gUfXAnkl5JArcktbOrIUeR5rra-Gz)
 		- You can definitely do rigorous algebra and analysis at this point here, its always a inculcating and ever increasing skill and knowledge-base: ((24df46a2-7dbd-4e68-9d3b-6fcb4d02c62f))
 	- ## I DECREE: DO MORE CLASSICAL!
+	  > choose any of them; they are all connected ;)
+		- ### Classical statistical mechanics
+			- The main expectation from statistical mechanics is to derive all of thermodynamics with bare minimum assumptions from simple mechanics.
+			- But is this possible?
+			- ((63b91d41-a8a0-44c1-a82b-f7f9838ca04d))
 		- ### Fluid mechanics
 			- If you think you know what fluid mechanics is (from school, say), I guarantee that you do not!
 		- ### Special Relativistic Mechanics and Electrodynamics
@@ -79,12 +84,13 @@
 		- ### Inside infinite-dim spaces (Functional analysis)
 	- ## apply your new-found knowledge
 		- ### Dynamical systems
+			- Hamiltonian systems and symplectic geometry
+			- PDEs
 		- [[FredericSchuller-Quantum Theory]]
 		- Ergodic theory
 		- Use measure theory to do [Classical Equilibrium Statistical Mechanics](https://warwick.ac.uk/fac/sci/maths/people/staff/stefan_adams/lecturenotestvi/cdias-adams-30.pdf)
+		  id:: 63b91d41-a8a0-44c1-a82b-f7f9838ca04d
 		- Probability
-		- Hamiltonian systems and symplectic geometry
-		- PDEs
 	- ## more math ✨
 		- [MathHistory: A course in the History of Mathematics](https://www.youtube.com/playlist?list=PL55C7C83781CF4316)
 		- Category theory - *a new way to think about structures and spaces*
