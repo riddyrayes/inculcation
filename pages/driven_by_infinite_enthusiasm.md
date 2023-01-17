@@ -41,6 +41,7 @@
 		- ### Classical statistical mechanics
 			- The main expectation from statistical mechanics is to derive all of thermodynamics with bare minimum assumptions from simple mechanics.
 			- But is this possible?
+			- [Lecture notes on Mathematical Statistical Mechanics (uni-tuebingen.de)](https://www.math.uni-tuebingen.de/de/forschung/maphy/lehre/ss-2019/statisticalphysics/dateien/lecture-notes.pdf)
 			- ((63b91d41-a8a0-44c1-a82b-f7f9838ca04d))
 		- ### Fluid mechanics
 			- If you think you know what fluid mechanics is (from school, say), I guarantee that you do not!
