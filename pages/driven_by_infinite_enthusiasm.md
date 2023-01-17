@@ -52,6 +52,7 @@
 			- TODO [[Electromagnetic_Circuitry]] - practically no proper references, wanna do it problerly, seems it eventually leads to fluid(-like) equations
 		- ### Classical statistical mechanics
 		  > The main expectation from statistical mechanics is to derive all of thermodynamics with bare minimum assumptions from simple mechanics. But is this possible?
+			- Balakrishnan talks about it in Classical Physics course, but does he do it? no.
 			- [Lecture notes on Mathematical Statistical Mechanics (uni-tuebingen.de)](https://www.math.uni-tuebingen.de/de/forschung/maphy/lehre/ss-2019/statisticalphysics/dateien/lecture-notes.pdf) is a good one, talks about these things
 			- MIT, and general pedagogy go exactly opposite to the main expectation
 			- #book **Statistical Mechanics: From Thermodynamics to the Renormalization Group by James H. Luscombe** has a derivation of the combined first and second law of thermodynamics
