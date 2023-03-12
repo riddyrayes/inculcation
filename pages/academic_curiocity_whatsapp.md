@@ -1,0 +1,3 @@
+- # *Academic Curiocity whatsapp community*
+- https://chat.whatsapp.com/CwhtnxvBD0TGBly0yxshRI
+- [[academic_curiocity_whatsapp/history-01]]

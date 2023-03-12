@@ -57,6 +57,7 @@
 			- MIT, and general pedagogy go exactly opposite to the main expectation
 			- #book **Statistical Mechanics: From Thermodynamics to the Renormalization Group by James H. Luscombe** has a derivation of the combined first and second law of thermodynamics
 			- ((63b91d41-a8a0-44c1-a82b-f7f9838ca04d))
+			- Non-equilibrium StatMech has the **Boltzmann equation** which can be used to do a lot of stuff
 		- ### Fluid mechanics
 		  > why after electrodynamics? because this is crazy non-linear
 			- If you think you know what fluid mechanics is (from school, say), I guarantee that you do not!
@@ -89,21 +90,20 @@
 					- Total derivative of functions
 					- Integrating: Differential forms
 				- ##### Differential geometry of submanifolds of $\mathbb{R}^{n}$
-					- #lecturenotes [diffgeo.pdf (ethz.ch)](https://people.math.ethz.ch/~salamon/PREPRINTS/diffgeo.pdf)
-						- One can distinguish extrinsic differential geometry and intrinsic differential geometry. The former restricts attention to submanifolds of Euclidean space while the latter studies manifolds equipped with a Riemannian metric. The extrinsic theory is more accessible because we can visualize curves and surfaces in $\mathbb{R}^{3}$ , but some topics can best be handled with the intrinsic theory. ...
+					- #lecturenotes [diffgeo.pdf (ethz.ch)](https://people.math.ethz.ch/~salamon/PREPRINTS/diffgeo.pdf) One can distinguish extrinsic differential geometry and intrinsic differential geometry. The former restricts attention to submanifolds of Euclidean space while the latter studies manifolds equipped with a Riemannian metric. The extrinsic theory is more accessible because we can visualize curves and surfaces in $\mathbb{R}^{3}$ , but some topics can best be handled with the intrinsic theory. ...
 			- #### Analysis in finite-dim normed vector spaces
 		- ### *Measure spaces* (measure theory)
 		- > Go outside of $\mathbb{R}^{n}$
 			- there are two routes:
 				- analysis on manifolds (classical mechanics, Hamiltonian systems)
 				- analysis on function spaces (quantum mechanics, PDEs)
-		- ### Inside (smooth) manifolds
-		  > this is the *intrinsic differential geometry*
+		- ### Out on (smooth) manifolds
+		  > this is the *intrinsic differential geometry* AKA Analysis on Manifolds
 			- #book Lee - Smooth manifolds
 			- #book Boothby - manifolds
-			- [Frederic Schuller -International Winter School on Gravity and Light 2015](https://www.youtube.com/playlist?list=PLFeEvEPtX_0S6vxxiiNPrJbLu9aK1UVC_)
+			- #lectures [Frederic Schuller -International Winter School on Gravity and Light 2015](https://www.youtube.com/playlist?list=PLFeEvEPtX_0S6vxxiiNPrJbLu9aK1UVC_)
 			  id:: 63afb3b0-55df-4e93-b06d-2a1b86b50dff
-			- [[FredericSchuller-Lectures on the Geometric Anatomy of Theoretical Physics]]
+			- #lectures Frederic Schuller - Lectures on the Geometric Anatomy of Theoretical Physics
 		- ### Inside infinite-dim spaces (functional analysis)
 			- ofcourse I've no idea about this
 	- ## apply your new-found knowledge
@@ -111,13 +111,13 @@
 			- #talk [Mathematics of Turbulent Flows: A Million Dollar Problem! by Edriss S Titi - YouTube](https://www.youtube.com/watch?v=VH4oawCiHPU)
 			- Hamiltonian systems and symplectic geometry
 			- PDEs
-		- [[FredericSchuller-Quantum Theory]]
+		- #lectures Frederic Schuller - Quantum Theory
 		- Ergodic theory
-		- Use measure theory to do [Classical Equilibrium Statistical Mechanics](https://warwick.ac.uk/fac/sci/maths/people/staff/stefan_adams/lecturenotestvi/cdias-adams-30.pdf)
+		- #lecturenotes Use measure theory to do [Classical Equilibrium Statistical Mechanics](https://warwick.ac.uk/fac/sci/maths/people/staff/stefan_adams/lecturenotestvi/cdias-adams-30.pdf)
 		  id:: 63b91d41-a8a0-44c1-a82b-f7f9838ca04d
 		- Probability
 	- ## more math ✨
-		- [MathHistory: A course in the History of Mathematics](https://www.youtube.com/playlist?list=PL55C7C83781CF4316)
+		- #lectures [MathHistory: A course in the History of Mathematics](https://www.youtube.com/playlist?list=PL55C7C83781CF4316)
 		- Category theory - *a new way to think about structures and spaces*
 		- Algebraic Topology - *study of holes in topological spaces*
 		- Differential topology
