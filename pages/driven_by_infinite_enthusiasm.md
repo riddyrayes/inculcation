@@ -34,7 +34,7 @@
 			- if you want more characteristic to a vector, like length (or angles) between vectors, then you say the vector is an element of a normed vector space (or an inner product space)
 				- again the change of pov must follow certain rule that **preserve the structure of the space**
 					- because if we can measure lengths of vectors, then the **lengths are sacred too**, they must not depend on the pov
-			- this philosophy is opposite to "a vector(or tensor) is a specified set of numbers that follows some given transformation rule" which definite works
+			- this philosophy is opposite to "a vector(or tensor) is a specified tuple of numbers that follows some given transformation rule" which definite works~
 		- Philosophy of linear algebra IV - thinking objects as part of a whole/constructing the whole first
 		  background-color:: blue
 			- the set of all linear maps from $V$ to $W$ (written as $\mathsf{Hom}(V,W$) *is made into a vector space* (as a subspace of the set of all functions between them, which is also a vector space)!
