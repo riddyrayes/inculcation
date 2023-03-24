@@ -45,6 +45,7 @@
 		- [A Infinitely Large Napkin](https://venhance.github.io/napkin/Napkin.pdf)
 		  id:: 63971467-7987-4f85-989d-47792d81d4a2
 			- an introduction to a lots of fields of math! (NOT a textbook but a really nice book)
+		- ## Cute
 		- ### Differential geometry in $\mathbb{R}^3$ proper with introducing yourself *topology*
 			- These lectures below has pre-requisites of basic topology and linear algebra, analysis in $\mathbb{R}^{n}$ #lectures [ICTP Diploma - Differential Geometry - Claudio Arezzo - YouTube](https://www.youtube.com/playlist?list=PLLq_gUfXAnkl5JArcktbOrIUeR5rra-Gz)
 		- You can definitely start with rigorous algebra and analysis at this point here, its always a inculcating and ever increasing skill and knowledge-base: ((24df46a2-7dbd-4e68-9d3b-6fcb4d02c62f))
@@ -82,7 +83,11 @@
 				- analysis on manifolds (classical mechanics, Hamiltonian systems)
 				- analysis on function spaces (quantum mechanics, PDEs)
 		- ### Out on (smooth) manifolds
-		  > this is the *intrinsic differential geometry* AKA analysis on Manifolds AKA differential geometry
+		  > this is the *intrinsic differential geometry* AKA analysis on manifolds
+			- philosophy of manifold theory I - to go out of submanifolds
+			  background-color:: blue
+			- philosophy of manifold theory II - to be coordinate free
+			  background-color:: blue
 			- #book Lee - Smooth manifolds
 			- #book Boothby - manifolds
 			- #lectures [Frederic Schuller -International Winter School on Gravity and Light 2015](https://www.youtube.com/playlist?list=PLFeEvEPtX_0S6vxxiiNPrJbLu9aK1UVC_)
