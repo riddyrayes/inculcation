@@ -2,6 +2,7 @@
 	- All opinion are strictly mine.
 - # What to study? Where to study from?
   > (order is not strict, life is very *non-linear*)
+	- {{embed ((641d94c5-fcf1-4a6f-a611-e69b02cd6c8c))}}
 - ## start with the little things and the big things
 	- ### little things: Groups (group theory, group actions)
 		- One should start their journey with groups!
@@ -10,38 +11,15 @@
 		- [Essence of Group Theory - YouTube](https://www.youtube.com/playlist?list=PLDcSwjT2BF_VuNbn8HiHZKKy59SgnIAeO)
 		- Chapter 1 and 3 from ((63971467-7987-4f85-989d-47792d81d4a2))
 	- ### big things: Vector spaces (Linear algebra)
-		- Philosophy of linear algebra I - finding happiness in small things
-		  background-color:: blue
-			- we see with just the little definition of a vector space, we can have things like **existence of a basis** using which we have ****
-			- if you want more things, we can have more things! (oriented vector space, inner product spaces, normed vector spaces, etc.)
-		- Philosophy of linear algebra II - giving lore being objects
-		  background-color:: blue
-			- origin story of matrices
-		- [Essence of linear algebra by 3Blue1Brown - YouTube](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
-		- #lectures [Linear Algebra by Dr. K.C. Sivakumar](https://www.youtube.com/playlist?list=PLbMVogVj5nJQ2vsW_hmyvVfO4GYWaaPp7)
-		- #lectures #book Linear Algebra Done Right - Sheldon Axler
-			- [Book website](https://linear.axler.net/), [Third ed pdf](http://library.lol/main/FA472BC434699EFE0F9BD5DC4E2E595E)
-			- [YouTube lectures](https://www.youtube.com/playlist?list=PLGAnmvB9m7zOBVCZBUUmSinFV0wEir2Vw)
-		- Chapters 9-15 from ((63971467-7987-4f85-989d-47792d81d4a2))
-		- Philosophy of linear algebra III - what is a vector?
-		  background-color:: blue
-		  collapsed:: true
-			- a vector is an element of a vector space. no more no less. so you can add them and scale them. but they *belong* somewhere. closure of their operations is also just as important as the operations themselves.
-				- now given a basis, lets say, we have a specific pov (coordinates) on the space
-				- if we wanna change the basis, the pov (coordinate) changes
-				- but that's just how we look at things! doesn't really effect the "sacred space"
-				- this also implies that the transformation of the pov (coordinates) must follow certain rule (must be linear transformations) that **preserve the structure of the space**
-					- because if we can add vectors, then the **addition of two vector is sacred**, they must not depend on the pov
-			- if you want more characteristic to a vector, like length (or angles) between vectors, then you say the vector is an element of a normed vector space (or an inner product space)
-				- again the change of pov must follow certain rule that **preserve the structure of the space**
-					- because if we can measure lengths of vectors, then the **lengths are sacred too**, they must not depend on the pov
-			- this philosophy is opposite to "a vector(or tensor) is a specified tuple of numbers that follows some given transformation rule" which definite works~
-		- Philosophy of linear algebra IV - thinking objects as part of a whole/constructing the whole first
-		  background-color:: blue
-			- the set of all linear maps from $V$ to $W$ (written as $\mathsf{Hom}(V,W$) *is made into a vector space* (as a subspace of the set of all functions between them, which is also a vector space)!
-			- **anything is possible** (if it is constructable, and most things are)
-	- ((641d830b-d3b2-4438-bbc6-1879df31734d))
-	- ### Calculus, geometry and linear algebra in $\mathbb{R}^n$
+		- [[driven_by_infinite_enthusiasm/linear_algebra]]
+		- {{embed ((641d9110-6ff4-4aef-b72d-957c9fc5a5f5))}}
+	- [A Infinitely Large Napkin](https://venhance.github.io/napkin/Napkin.pdf)
+	  id:: 63971467-7987-4f85-989d-47792d81d4a2
+		- an introduction to a lots of fields of math! (NOT a textbook but a really nice book)
+		- starts with groups and metric spaces!
+	- ### Analysis in $\R$
+		- {{embed ((641d830b-938a-487c-a39a-88d9d5016479))}}
+	- ### Anaysis and linear algebra in $\mathbb{R}^n$
 		- from ((63971467-7987-4f85-989d-47792d81d4a2))
 			- Chapters 26-30 - Calculus 101
 			- Chapters 42-45 - Total derivatives and differential forms
@@ -60,27 +38,22 @@
 		- #book LandauL volume I
 		- [Non-linear dynamics by Balki](https://www.youtube.com/watch?v=nh4TFzg30eQ&list=PLbMVogVj5nJQKk1E7OUQs_TcW_zQoaO4t)
 - ## dive deeper into math ✨
-	- [A Infinitely Large Napkin](https://venhance.github.io/napkin/Napkin.pdf)
-	  id:: 63971467-7987-4f85-989d-47792d81d4a2
-		- an introduction to a lots of fields of math! (NOT a textbook but a really nice book)
 	- ### Algebra
 		- #lectures [Abstract Algebra by Benedict Gross - YouTube](https://www.youtube.com/playlist?list=PLA58AC5CABC1321A3)
 		- #book Artin - Algebra
 		- #book Algebra Chapter 0
-	- ### Metric spaces
 	- ### Cute topology
 		-
 	- ### Differential geometry in $\mathbb{R}^3$ proper with introducing yourself *topology*
 		- These lectures below has pre-requisites of basic topology and linear algebra, analysis in $\mathbb{R}^{n}$ #lectures [ICTP Diploma - Differential Geometry - Claudio Arezzo - YouTube](https://www.youtube.com/playlist?list=PLLq_gUfXAnkl5JArcktbOrIUeR5rra-Gz)
 	- You can definitely start with rigorous algebra and analysis at this point here, its always a inculcating and ever increasing skill and knowledge-base: ((24df46a2-7dbd-4e68-9d3b-6fcb4d02c62f))
 	  id:: 641d830b-d3b2-4438-bbc6-1879df31734d
-- ## I DECREE: DO MORE CLASSICAL![[driven_by_infinite_enthusiasm/classical physics]]
-  collapsed:: true
-	- {{embed [[driven_by_infinite_enthusiasm/classical physics]]}}
+- ## I DECREE: DO MORE CLASSICAL!
+	- [[driven_by_infinite_enthusiasm/classical_physics]]
 - ## (only if you wanna do quantum)
 	- Quantum Physics by Balki
 	- Quantum computation - chapters 23-25 from ((63971467-7987-4f85-989d-47792d81d4a2))
-- ## Rigorous Constructions
+- ## Rigorous constructions
   id:: 24df46a2-7dbd-4e68-9d3b-6fcb4d02c62f
   > Now that you see how deep things are, go back and focus on the details
 	- Philosophy I: construct spaces and do algebra and analysis
@@ -91,21 +64,29 @@
 		- reminder: nothing (even rigor) is more scary than doing wrong stuff!
 		  background-color:: pink
 	- ### Inside "dim $=1$" spaces
+	  id:: 641d830b-938a-487c-a39a-88d9d5016479
+		- #book Tao Analysis vol I, II
 		- Construct reals from integers -> rationals
 		  background-color:: green
-		- Tao Analysis vol I, II
-		- Apostol Mathematical Analysis
-		- Rudin Analysis (Baby Rudin)
-	- ### Inside "dim $< \infty$" spaces
-		- #### do more inside $\mathbb{R}^{n}$ / analysis in finite-dim normed vector spaces / inner product spaces
-		  id:: 641c92ac-38ad-40b9-9094-f1cc30fd7256
-			- ##### Algebra
-				- Matrix algebra, tensor algebra, exterior algebra
-			- ##### Analysis in $\mathbb{R}^{n}$
-				- Total derivative of functions
-				- Integrating: Differential forms
-			- ##### Differential geometry of submanifolds of $\mathbb{R}^{n}$
-				- #lecturenotes [diffgeo.pdf (ethz.ch)](https://people.math.ethz.ch/~salamon/PREPRINTS/diffgeo.pdf) One can distinguish extrinsic differential geometry and intrinsic differential geometry. The former restricts attention to submanifolds of Euclidean space while the latter studies manifolds equipped with a Riemannian metric. The extrinsic theory is more accessible because we can visualize curves and surfaces in $\mathbb{R}^{3}$ , but some topics can best be handled with the intrinsic theory. ...
+		- Metric spaces
+		  background-color:: green
+		- Sequences and series
+		  background-color:: green
+		- $\epsilon-\delta$ limits of functions, continuity
+		  background-color:: green
+		- #book Apostol - Mathematical Analysis
+		- #book Rudin Analysis (Baby Rudin)
+	- ### Inside "1 $\leq$ dim $< \infty$" spaces:
+		- do more inside $\mathbb{R}^{n}$ / analysis in normed vector spaces 
+		  / analysis in inner product spaces
+		- #### Algebra
+			- Matrix algebra, tensor algebra, exterior algebra
+		- #### Analysis in $\mathbb{R}^{n}$
+			- Total derivative of functions
+			- Integrating: Differential forms
+		- #### Differential geometry of submanifolds of $\mathbb{R}^{n}$
+			- #lecturenotes [diffgeo.pdf (ethz.ch)](https://people.math.ethz.ch/~salamon/PREPRINTS/diffgeo.pdf) One can distinguish extrinsic differential geometry and intrinsic differential geometry. The former restricts attention to submanifolds of Euclidean space while the latter studies manifolds equipped with a Riemannian metric. The extrinsic theory is more accessible because we can visualize curves and surfaces in $\mathbb{R}^{3}$ , but some topics can best be handled with the intrinsic theory. ...
+		- [[driven_by_infinite_enthusiasm/analysis_in_normed_vector_spaces]]
 	- ### *Measure spaces* (measure theory)
 	- > Go outside of $\mathbb{R}^{n}$
 		- there are two routes:
@@ -115,7 +96,7 @@
 	  > this is the *intrinsic differential geometry* AKA analysis on manifolds
 		- philosophy of manifold theory I - to go out of submanifolds
 		  background-color:: blue
-		- philosophy of manifold theory II - to be coordinate free
+		- philosophy of manifold theory II - to be coordinate-free
 		  background-color:: blue
 		- #book Lee - Smooth manifolds
 		- #book Boothby - manifolds
