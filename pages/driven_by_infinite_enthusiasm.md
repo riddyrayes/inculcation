@@ -27,7 +27,9 @@
 		  background-color:: blue
 			- a vector is an element of a vector space. no more no less. so you can add them and scale them. but they *belong* somewhere. closure of their operations is also just as important as the operations themselves.
 				- now given a basis, lets say, we have a specific pov (coordinates) on the space
-				- if we wanna change the bais, the pov(
+				- if we wanna change the basis, the pov (coordinate) changes
+				- but that's just how we look at things! doesn't really effect the "sacred space"
+				- this also implies that the transformation of the pov (coordinates) must follow certain rule (must be linear transformations)
 			- if you want more characteristic to a vector, like length (or angles) between vectors, then you say the vector is an element of a normed vector space (or an inner product space)
 			- this philosophy is opposite to "a vector is any set of coordinates that follows some given transformation rule"
 		- Philosophy of linear algebra IV - thinking objects as part of a whole/constructing the whole first
