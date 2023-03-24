@@ -31,6 +31,7 @@
 				- but that's just how we look at things! doesn't really effect the "sacred space"
 				- this also implies that the transformation of the pov (coordinates) must follow certain rule (must be linear transformations)
 			- if you want more characteristic to a vector, like length (or angles) between vectors, then you say the vector is an element of a normed vector space (or an inner product space)
+				- again the change of pov
 			- this philosophy is opposite to "a vector is any set of coordinates that follows some given transformation rule"
 		- Philosophy of linear algebra IV - thinking objects as part of a whole/constructing the whole first
 		  background-color:: blue
