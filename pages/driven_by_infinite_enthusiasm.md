@@ -2,6 +2,7 @@
 	- All opinion are strictly mine.
 - # What to study? Where to study from?
   > (order is not strict, life is very *non-linear*)
+- 
 	- ### Groups
 		- One should start their journey with groups!
 		  background-color:: yellow
@@ -38,14 +39,15 @@
 		- [Non-linear dynamics by Balki](https://www.youtube.com/watch?v=nh4TFzg30eQ&list=PLbMVogVj5nJQKk1E7OUQs_TcW_zQoaO4t)
 		- (short #lectures ) [Mechanics using the Action by T Paddy](https://youtube.com/playlist?list=PLlFCvH2vR5kRzC1LQtHy_MUAquC-tQiiW)
 	- ## Some math ✨
+		- [A Infinitely Large Napkin](https://venhance.github.io/napkin/Napkin.pdf)
+		  id:: 63971467-7987-4f85-989d-47792d81d4a2
+			- an introduction to a lots of fields of math! (NOT a textbook but a really nice book)
 		- ### Algebra
 			- #lectures [Abstract Algebra by Benedict Gross - YouTube](https://www.youtube.com/playlist?list=PLA58AC5CABC1321A3)
 			- #book Artin - Algebra
 		- ### Metric spaces
-		- [A Infinitely Large Napkin](https://venhance.github.io/napkin/Napkin.pdf)
-		  id:: 63971467-7987-4f85-989d-47792d81d4a2
-			- an introduction to a lots of fields of math! (NOT a textbook but a really nice book)
-		- ## Cute
+		- ### Cute topology
+			-
 		- ### Differential geometry in $\mathbb{R}^3$ proper with introducing yourself *topology*
 			- These lectures below has pre-requisites of basic topology and linear algebra, analysis in $\mathbb{R}^{n}$ #lectures [ICTP Diploma - Differential Geometry - Claudio Arezzo - YouTube](https://www.youtube.com/playlist?list=PLLq_gUfXAnkl5JArcktbOrIUeR5rra-Gz)
 		- You can definitely start with rigorous algebra and analysis at this point here, its always a inculcating and ever increasing skill and knowledge-base: ((24df46a2-7dbd-4e68-9d3b-6fcb4d02c62f))
