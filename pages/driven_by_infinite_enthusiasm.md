@@ -29,6 +29,7 @@
 		- [[Shifrin_Multivariable_Mathematics]] - a 2 semester course that covers linear algebra and (proper) multivariable calc
 	- ### Classical mechanics, bit of statistical and chaos
 		- sadly no really good references imo/ Morin, Goldstein etc all okayish
+		  background-color:: purple
 			- try doing (Newtonian mechanics)
 				- rigid bodies
 				- central forces
@@ -45,6 +46,7 @@
 	- ### Algebra
 		- #lectures [Abstract Algebra by Benedict Gross - YouTube](https://www.youtube.com/playlist?list=PLA58AC5CABC1321A3)
 		- #book Artin - Algebra
+		- #book Algebra Chapter 0
 	- ### Metric spaces
 	- ### Cute topology
 		-
@@ -63,9 +65,11 @@
 	- Philosophy I: construct spaces and do algebra and analysis
 	  background-color:: blue
 	  id:: 977695ee-4120-4536-b875-6fb25c4772e7
-		- the idea is to *create* meaning, objects out of nothing..., even in familiar spaces and then going to familiar ones!
+		- the idea is to *create* meaning, objects out of nothing..., even in familiar spaces and then going to unfamiliar ones!
 		  background-color:: yellow
 	- ### Inside "dim $=1$" spaces
+		- Construct reals
+		  background-color:: green
 		- Tao Analysis vol I, II
 		- Apostol Mathematical Analysis
 		- Rudin Analysis (Baby Rudin)
@@ -112,7 +116,7 @@
 	- gauge theory
 	- ### GR
 	- probability
-- ## more math ✨
+- ## new way of looking at things never ends ✨
 	- #lectures [MathHistory: A course in the History of Mathematics](https://www.youtube.com/playlist?list=PL55C7C83781CF4316)
 	- Category theory - *a new way to think about structures, spaces and mathematics*
 	- Topology - *as opposed to cute topology, we prove more content here*
