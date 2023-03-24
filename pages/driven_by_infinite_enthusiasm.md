@@ -100,7 +100,7 @@
 		- #lectures Frederic Schuller - Quantum Theory
 - ## apply your new-found knowledge
 	- ### geometry
-		- Riemanian geometry
+		- Riemannian geometry
 	- ### dynamical systems
 		- req: topology, manifolds, measure
 		- #talk [Mathematics of Turbulent Flows: A Million Dollar Problem! by Edriss S Titi - YouTube](https://www.youtube.com/watch?v=VH4oawCiHPU)
@@ -114,8 +114,11 @@
 	- probability
 - ## more math ✨
 	- #lectures [MathHistory: A course in the History of Mathematics](https://www.youtube.com/playlist?list=PL55C7C83781CF4316)
-	- Category theory - *a new way to think about structures and spaces*
+	- Category theory - *a new way to think about structures, spaces and mathematics*
+	- Topology - *as opposed to cute topology, we prove more content here*
+		- #book Munkres
 	- Algebraic Topology - *study of holes in topological spaces*
+		- #book Hatcher
 	- Differential topology
 	- Graph theory
 - # How to study?
