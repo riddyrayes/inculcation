@@ -97,18 +97,21 @@
 		- #lectures Frederic Schuller - Lectures on the Geometric Anatomy of Theoretical Physics
 	- ### Inside "dim $=\infty$" spaces (functional analysis)
 		- ofcourse I've no idea about this
+		- #lectures Frederic Schuller - Quantum Theory
 - ## apply your new-found knowledge
-	- ## geometry
-	- ### Dynamical systems
+	- ### geometry
+		- Riemanian geometry
+	- ### dynamical systems
+		- req: topology, manifolds, measure
 		- #talk [Mathematics of Turbulent Flows: A Million Dollar Problem! by Edriss S Titi - YouTube](https://www.youtube.com/watch?v=VH4oawCiHPU)
 		- Hamiltonian systems and symplectic geometry
 		- PDEs
 		- Ergodic theory
+		- #lecturenotes Use measure theory to do [Classical Equilibrium Statistical Mechanics](https://warwick.ac.uk/fac/sci/maths/people/staff/stefan_adams/lecturenotestvi/cdias-adams-30.pdf)
+		  id:: 63b91d41-a8a0-44c1-a82b-f7f9838ca04d
 	- gauge theory
-	- #lectures Frederic Schuller - Quantum Theory
-	- #lecturenotes Use measure theory to do [Classical Equilibrium Statistical Mechanics](https://warwick.ac.uk/fac/sci/maths/people/staff/stefan_adams/lecturenotestvi/cdias-adams-30.pdf)
-	  id:: 63b91d41-a8a0-44c1-a82b-f7f9838ca04d
-	- Probability
+	- ### GR
+	- probability
 - ## more math ✨
 	- #lectures [MathHistory: A course in the History of Mathematics](https://www.youtube.com/playlist?list=PL55C7C83781CF4316)
 	- Category theory - *a new way to think about structures and spaces*
