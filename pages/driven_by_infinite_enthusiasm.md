@@ -12,11 +12,11 @@
 	- ### big things: Vector spaces (Linear algebra)
 		- Philosophy of linear algebra I - finding happiness in small things
 		  background-color:: blue
-			- we see with just the little definition of a vector space, we can have things like **basis**
-			-
+			- we see with just the little definition of a vector space, we can have things like **basis** using which we have ****
+			- if you want more things, we can have more things! (inner product spaces, normed vector spaces)
 		- Philosophy of linear algebra II - giving lore being objects
 		  background-color:: blue
-			- matrices
+			- origin story of matrices
 		- [Essence of linear algebra by 3Blue1Brown - YouTube](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
 		- #lectures [Linear Algebra by Dr. K.C. Sivakumar](https://www.youtube.com/playlist?list=PLbMVogVj5nJQ2vsW_hmyvVfO4GYWaaPp7)
 		- #lectures #book Linear Algebra Done Right - Sheldon Axler
@@ -30,7 +30,6 @@
 		- Philosophy of linear algebra IV - thinking objects as part of a whole/constructing the whole first
 		  background-color:: blue
 			- the set of all linear maps from $V$ to $W$ (written as $\mathsf{Hom}(V,W$) *is made into a vector space* (as a subspace of the set of all functions between them, which is also a vector space)!
-			-
 	- ((641d830b-d3b2-4438-bbc6-1879df31734d))
 	- ### Calculus, geometry and linear algebra in $\mathbb{R}^n$
 		- from ((63971467-7987-4f85-989d-47792d81d4a2))
