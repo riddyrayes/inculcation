@@ -10,10 +10,12 @@
 		- [Essence of Group Theory - YouTube](https://www.youtube.com/playlist?list=PLDcSwjT2BF_VuNbn8HiHZKKy59SgnIAeO)
 		- Chapter 1 and 3 from ((63971467-7987-4f85-989d-47792d81d4a2))
 	- ### big things: Vector spaces (Linear algebra)
-		- Philosophy of linear algebra I -
+		- Philosophy of linear algebra I - finding happiness in small things
 		  background-color:: blue
+			- we see with just the little defintion of
 		- Philosophy of linear algebra II - giving lore being objects
 		  background-color:: blue
+			- matrices
 		- [Essence of linear algebra by 3Blue1Brown - YouTube](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
 		- #lectures [Linear Algebra by Dr. K.C. Sivakumar](https://www.youtube.com/playlist?list=PLbMVogVj5nJQ2vsW_hmyvVfO4GYWaaPp7)
 		- #lectures #book Linear Algebra Done Right - Sheldon Axler
@@ -68,7 +70,7 @@
 		- the idea is to *create* meaning, objects out of nothing..., even in familiar spaces and then going to unfamiliar ones!
 		  background-color:: yellow
 	- ### Inside "dim $=1$" spaces
-		- Construct reals
+		- Construct reals from integers -> rationals
 		  background-color:: green
 		- Tao Analysis vol I, II
 		- Apostol Mathematical Analysis
