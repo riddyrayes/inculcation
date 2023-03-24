@@ -22,9 +22,12 @@
 			- [Book website](https://linear.axler.net/), [Third ed pdf](http://library.lol/main/FA472BC434699EFE0F9BD5DC4E2E595E)
 			- [YouTube lectures](https://www.youtube.com/playlist?list=PLGAnmvB9m7zOBVCZBUUmSinFV0wEir2Vw)
 		- Chapters 9-15 from ((63971467-7987-4f85-989d-47792d81d4a2))
-		- Philosophy of linear algebra III - thinking objects as part of a whole/constructing the whole first
+		- Philosophy of linear algebra III - what is a vector?
 		  background-color:: blue
-			- the set of all linear maps from $V$ to $W$ (written as $\mathsf{Hom}(V,W$) is made into a vector space (as a subspace of the set of all functions between them, which is also a vector space)!
+			-
+		- Philosophy of linear algebra IV - thinking objects as part of a whole/constructing the whole first
+		  background-color:: blue
+			- the set of all linear maps from $V$ to $W$ (written as $\mathsf{Hom}(V,W$) *is made into a vector space* (as a subspace of the set of all functions between them, which is also a vector space)!
 	- ### Calculus, geometry and linear algebra in $\mathbb{R}^n$
 		- from ((63971467-7987-4f85-989d-47792d81d4a2))
 			- Chapters 26-30 - Calculus 101
