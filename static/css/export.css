@@ -1,0 +1,570 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Noto+Sans+SC:wght@100;300;400;500;700;900&family=Noto+Serif+SC:wght@200;300;400;500;600;700;900&display=swap");
+@font-face {
+    font-family: "Noto Serif Bengali";
+    src: local("Noto Serif Bengali");
+    unicode-range: U+0980–09FF;
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Fira Code:ital,wght@0,200;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,800&display=swap'); */
+
+
+:root {
+  --background: #0f0f14;
+  --light-background: #343746;
+  --lighter-background: #424450;
+  --dark-background: #21222c;
+  --darker-background: #191a21;
+  --foreground: #f8f8f2;
+  --current-line: #44475a;
+  --comment: #6272a4;
+  --white: var(--foreground);
+  --white-hover: #f8f8f280;
+  --red: #ff5555;
+  --orange: #ffb86c;
+  --yellow: #f1fa8c;
+  --green: #50fa7b;
+  --purple: #bd93f9;
+  --purple-hover: #bf93f980;
+  --cyan: #8be9fd;
+  --cyan-hover: #8be9fd80;
+  --pink: #ff79c6;
+  --pink-hover: #ff79c680;
+
+  --ls-tag-text-opacity: 0.8;
+  --ls-tag-text-hover-opacity: 0.8;
+  --ls-page-text-size: 16px;
+  --ls-page-title-size: 36px;
+  --ls-font-family: 'Fira Code',  "Noto Serif Bengali";
+  --ls-font-weight: 300;
+  --ls-font-letter-spacing: 0em;
+  --ls-font-line-height: 1.5;
+
+  --ls-border-radius-low: 3px;
+  --ls-border-radius-medium: 6px;
+}
+
+.light-theme,
+html[data-theme="light"], .dark-theme,
+html[data-theme="dark"] {
+  --ls-primary-background-color: var(--background);
+  --ls-secondary-background-color: var(--dark-background);
+  --ls-tertiary-background-color: var(--light-background);
+  --ls-quaternary-background-color: var(--light-background);
+  --ls-quinary-background-color: var(--darker-background);
+
+  --ls-active-primary-color: var(--foreground);
+  --ls-active-secondary-color: var(--foreground);
+
+  --ls-primary-text-color: var(--foreground);
+  --ls-secondary-text-color: var(--white-hover);
+
+  --ls-search-background-color: var(--background);
+  --ls-border-color: var(--comment);
+  --ls-secondary-border-color: var(--ls-border-color);
+  --ls-menu-hover-color: var(--light-background);
+  --ls-table-tr-even-background-color: var(--light-background);
+
+  --ls-head-text-color: var(--foreground);
+  --ls-title-text-color: var(--foreground);
+
+  --ls-link-text-color: var(--pink);
+  --ls-link-text-hover-color: var(--pink-hover);
+
+  --ls-link-ref-text-color: var(--pink);
+  --ls-link-ref-text-hover-color: var(--pink-hover);
+  --ls-block-ref-link-text-color: var(--ls-border-color);
+
+  --ls-tag-text-color: var(--purple);
+  --ls-tag-text-hover-color: var(--purple-hover);
+
+  --ls-block-bullet-border-color: var(--current-line);
+  --ls-block-bullet-color: var(--foreground);
+  --ls-block-highlight-color: var(--current-line);
+  --ls-block-properties-background-color: var(--light-background);
+
+  --ls-page-checkbox-color: transparent;
+  --ls-page-checkbox-border-color: var(--comment);
+
+  --ls-page-blockquote-color: var(--foreground);
+  --ls-page-blockquote-bg-color: var(--light-background);
+  --ls-page-blockquote-border-color: var(--yellow);
+  --ls-page-properties-background-color: var(--light-background);
+
+  --ls-page-inline-code-color: var(--orange);
+  --ls-page-inline-code-bg-color: var(--background);
+
+  --ls-scrollbar-background-color: var(--background);
+  --ls-scrollbar-foreground-color: var(--darker-background);
+  --ls-scrollbar-thumb-hover-color: var(--light-background);
+
+  --ls-icon-color: var(--white-hover);
+  --ls-search-icon-color: var(--white-hover);
+  --ls-a-chosen-bg: var(--light-background);
+  --ls-right-sidebar-code-bg-color: var(--light-background);
+  --ls-selection-background-color: var(--comment);
+  --ls-slide-background-color: var(--ls-primary-background-color);
+  --ls-guideline-color: var(--ls-border-color);
+  --color-level-1: var(--ls-secondary-background-color);
+  --color-level-2: var(--ls-primary-background-color);
+  --color-level-3: var(--ls-quaternary-background-color);
+  --color-level-4: var(--ls-tertiary-background-color);
+  --color-level-5: var(--ls-quinary-background-color);
+  --ls-pie-bg-color: #01303b;
+  --ls-pie-fg-color: #0b5869;
+  --ls-highlight-color-gray: var(--color-gray-900);
+  --ls-highlight-color-red: var(--color-red-900);
+  --ls-highlight-color-yellow: var(--color-yellow-900);
+  --ls-highlight-color-green: var(--color-green-900);
+  --ls-highlight-color-blue: var(--color-blue-900);
+  --ls-highlight-color-purple: var(--color-purple-900);
+  --ls-highlight-color-pink: var(--color-pink-900);
+  --ls-error-text-color: var(--color-red-100);
+  --ls-error-background-color: var(--color-red-900);
+  --ls-warning-text-color: var(--color-yellow-100);
+  --ls-warning-background-color: var(--color-yellow-900);
+  --ls-success-text-color: var(--color-green-100);
+  --ls-success-background-color: var(--color-green-900);
+  --ls-focus-ring-color: rgba(18,98,119,.5);
+  --ls-header-button-background: #dee4ea;
+
+}
+
+html,
+body {
+  font-weight: var(--ls-font-weight);
+  letter-spacing: var(--ls-font-letter-spacing);
+  line-height: var(--ls-font-line-height);
+  font-size: var(--ls-page-text-size);
+  background-color: #282a36;
+}
+
+i {
+  font-family: "Fira Code";
+  font-weight: 800;
+}
+
+b {
+  color: var(--orange);
+}
+
+mark {
+  background-color: var(--yellow);
+}
+
+.bg-orange-400 {
+  background-color: var(--orange);
+}
+
+.bg-green-600 {
+  background-color: var(--green);
+}
+
+.bg-red-500 {
+  background-color: var(--red);
+}
+
+.dark-theme .form-checkbox {
+  border: 1px solid var(--ls-page-checkbox-border-color) !important;
+  border-radius: var(--ls-border-radius-low) !important;
+}
+
+.external-link {
+  color: var(--cyan);
+  text-decoration: none;
+  border-bottom: none;
+}
+
+.external-link:hover {
+  color: var(--cyan-hover);
+}
+
+h1.title,
+.ls-block h1,
+.ls-block h2,
+.ls-block h3,
+.ls-block h4,
+.ls-block h5,
+.ls-block h6 {
+  font-weight: 700;
+}
+
+.ls-block h1, .editor-inner :is(.h1) {
+  color: #fa4d1e;
+}
+
+.ls-block h2, .editor-inner :is(.h2) {
+  color: #F89C1C;
+}
+
+.ls-block h3, .editor-inner :is(.h3) {
+  color: #ede482;
+}
+
+.ls-block h4, .editor-inner :is(.h4) {
+  color: #aade62;
+}
+
+.ls-block h5, .editor-inner :is(.h5) {
+  color: #62deac;
+}
+
+.ls-block h6, .editor-inner :is(.h6) {
+  color: #62b7de;
+}
+
+
+/* Priority tag styling */
+.priority {
+  color: var(--ls-tag-text-color);
+  opacity: 1 !important;
+  font-size: 0px; /* Hide text */
+}
+
+.priority:hover,
+a.tooltip-priority:hover {
+  color: var(--ls-tag-text-hover-color);
+  opacity: 0.5;
+}
+
+a.priority[href="#/page/A"]:before {
+  content: "A";
+  background: var(--red);
+}
+
+a.priority[href="#/page/B"]:before {
+  content: "B";
+  background: var(--yellow);
+}
+
+a.priority[href="#/page/C"]:before {
+  content: "C";
+  background: var(--green);
+}
+
+a.priority:before {
+  font-size: 0.9rem;
+  font-weight: 400;
+  padding: 1px 4px 0px 3px;
+  margin: 0px 2px 0px 0px;
+  border-radius: var(--ls-border-radius-low);
+  color: var(--ls-primary-background-color);
+}
+
+a.tooltip-priority {
+  color: var(--ls-tag-text-color);
+}
+
+.Tooltip__label {
+  background: var(--ls-quinary-background-color);
+}
+
+.Tooltip__label::after {
+  border-bottom-color: var(--ls-quinary-background-color);
+}
+
+.page-reference .bracket {
+  color: var(--ls-border-color);
+  opacity: 0.8;
+}
+
+a.tag {
+  background: var(--purple);
+  border-radius: 3px 3px 3px 3px;
+  padding: 0px 3px;
+  color: var(--dark-background);
+  font-weight: 400;
+}
+
+a.tag:hover {
+  background: transparent;
+  color: (--purple);
+}
+
+/*
+
+    Name:       Dracula for CodeMirror
+    Author:     Michael Kaminsky (http://github.com/mkaminsky11)
+    Adapted by:    Sly Bouhafs
+
+
+    Original dracula color scheme by Zeno Rocha (https://github.com/zenorocha/dracula-theme)
+    Adapted for logseq
+
+*/
+
+html[data-theme="dark"] .CodeMirror {
+  font-family:  "FiraCode Nerd Font", "Noto Serif Bengali", monospace;
+  line-height: 1.2;
+  background: var(--background);
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  color: var(--white);
+}
+
+html[data-theme="dark"] .cm-s-default .CodeMirror,
+html[data-theme="dark"] .CodeMirror .CodeMirror-gutters {
+  background-color: transparent;
+  color: var(--white) !important;
+  border: none;
+}
+
+html[data-theme="dark"] .extensions__code-lang {
+  background: var(--light-background);
+}
+
+html[data-theme="dark"] .CodeMirror {
+  border: 5px solid var(--light-background);
+}
+
+html[data-theme="dark"] .CodeMirror .CodeMirror-gutters {
+  color: var(--background);
+}
+html[data-theme="dark"] .CodeMirror .CodeMirror-cursor {
+  border-left: solid thin var(--white);
+}
+html[data-theme="dark"] .CodeMirror .CodeMirror-linenumber {
+  color: var(--comment);
+}
+html[data-theme="dark"] .CodeMirror .CodeMirror-selected {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+html[data-theme="dark"] .CodeMirror .CodeMirror-line {
+  box-shadow: none;
+}
+
+html[data-theme="dark"] .CodeMirror .CodeMirror-line::selection,
+html[data-theme="dark"] .CodeMirror .CodeMirror-line > span::selection,
+html[data-theme="dark"]
+  .cm-s-default
+  .CodeMirror-line
+  > span
+  > span::selection {
+  background: rgba(255, 255, 255, 0.1);
+}
+html[data-theme="dark"] .CodeMirror .CodeMirror-line::-moz-selection,
+html[data-theme="dark"] .CodeMirror .CodeMirror-line > span::-moz-selection,
+html[data-theme="dark"]
+  .cm-s-default
+  .CodeMirror-line
+  > span
+  > span::-moz-selection {
+  background: rgba(255, 255, 255, 0.1);
+}
+html[data-theme="dark"] .CodeMirror span.cm-comment {
+  color: var(--comment);
+}
+html[data-theme="dark"] .CodeMirror span.cm-string,
+html[data-theme="dark"] .CodeMirror span.cm-string-2 {
+  color: var(--yellow);
+}
+html[data-theme="dark"] .CodeMirror span.cm-number {
+  color: var(--purle);
+}
+html[data-theme="dark"] .CodeMirror span.cm-variable {
+  color: var(--green);
+}
+html[data-theme="dark"] .CodeMirror span.cm-variable-2 {
+  color: var(--white);
+}
+html[data-theme="dark"] .CodeMirror span.cm-def {
+  color: var(--green);
+}
+html[data-theme="dark"] .CodeMirror span.cm-operator {
+  color: var(--pink);
+}
+html[data-theme="dark"] .CodeMirror span.cm-keyword {
+  color: var(--pink);
+}
+html[data-theme="dark"] .CodeMirror span.cm-atom {
+  color: var(--purple);
+}
+html[data-theme="dark"] .CodeMirror span.cm-meta {
+  color: var(--white);
+}
+html[data-theme="dark"] .CodeMirror span.cm-tag {
+  color: var(--pink);
+}
+html[data-theme="dark"] .CodeMirror span.cm-attribute {
+  color: var(--green);
+}
+html[data-theme="dark"] .CodeMirror span.cm-qualifier {
+  color: var(--green);
+}
+html[data-theme="dark"] .CodeMirror span.cm-property {
+  color: var(--cyan);
+}
+html[data-theme="dark"] .CodeMirror span.cm-builtin {
+  color: var(--green);
+}
+html[data-theme="dark"] .CodeMirror span.cm-variable-3,
+html[data-theme="dark"] .CodeMirror span.cm-type {
+  color: var(--orange);
+}
+
+html[data-theme="dark"] .CodeMirror .CodeMirror-activeline-background {
+  background: rgba(255, 255, 255, 0.1);
+}
+html[data-theme="dark"] .CodeMirror .CodeMirror-matchingbracket {
+  text-decoration: underline;
+  color: var(--white) !important;
+}
+
+html[data-theme="dark"] #right-sidebar pre.CodeMirror-line {
+  background: transparent;
+}
+
+/*************************
+ * Editing block threading
+ *************************/
+ .ls-block > div > div.items-center {
+  position: relative;
+}
+
+div.items-center::before,
+div.items-center::after,
+.ls-block::before,
+.ls-block::after,
+.block-content-wrapper::before {
+  pointer-events: none;
+}
+
+.ls-block > div > div.items-center::before {
+  content: "";
+  height: 100%;
+  left: -2px;
+  right: 6px;
+  top: calc(-50% + 1px);
+  position: absolute;
+  border-left: 2px solid transparent;
+  border-bottom: 2px solid transparent;
+  border-bottom-left-radius: 10px;
+}
+
+.blocks-container > .ls-block > div > div.items-center::before,
+.blocks-container > .ls-block:focus-within > div > div.items-center::after,
+.blocks-container > .block-children:focus-within > .ls-block::before {
+  display: none;
+}
+
+.ls-block:focus-within > div > div.items-center::before {
+  border-color: var(--ct-page-reference-color);
+}
+
+.ls-block > div > div.items-center::after {
+  content: "";
+  height: calc(100% - 10px);
+  top: -50%;
+  left: -2px;
+  position: absolute;
+  border-left: 2px solid transparent;
+}
+
+.ls-block:focus-within > div > div.items-center::after {
+  border-color: var(--ct-page-reference-color);
+}
+
+.block-children > .ls-block::before {
+  content: "";
+  top: -10px;
+  bottom: 0;
+  border-left: 2px solid transparent;
+  left: -2px;
+  position: absolute;
+}
+
+.block-children:focus-within > .ls-block:not(:focus-within)::before {
+  border-color: var(--ct-page-reference-color);
+}
+
+.block-children:focus-within > .ls-block:focus-within ~ .ls-block::before {
+  border-color: transparent;
+}
+
+.ls-block > div > .block-content-wrapper {
+  position: relative;
+}
+
+.ls-block > div > .block-content-wrapper::before {
+  content: "";
+  top: 1em;
+  bottom: 0;
+  left: -17px;
+  position: absolute;
+  border-left: 2px solid transparent;
+}
+
+.ls-block[haschild=true]:focus-within > div > .block-content-wrapper::before {
+  border-color: var(--ct-page-reference-color);
+}
+
+.doc-mode div.items-center::before,
+.doc-mode div.items-center::after,
+.doc-mode .ls-block::before,
+.doc-mode .ls-block::after {
+  display: none;
+}
+
+/* Block oversize issue */
+.block-content-wrapper {
+  max-width: calc(100% - 38px);
+}
+
+.block-content-wrapper > div.flex-1 {
+  width: 100%;
+}
+
+.block-content .resize {
+  max-width: -webkit-fill-available;
+}
+
+/* embed */
+.embed,
+.embed-page,
+.embed-block {
+  box-shadow: 4px 4px black;
+  padding: 0.75em 0.5em;
+  border: 2px solid #000;
+  border-radius: 8px;
+  margin: 0.2em 0 0.5em;
+  transition: all ease-in 0.3s;
+}
+
+:is(.embed, .embed-page, .embed-block):is(:hover, :focus-within) {
+  box-shadow: 8px 8px var(--ct-secondary-color);
+  transform: translate(-4px, -4px);
+}
+
+/* page embed */
+.embed-page,
+.cp__right-sidebar .embed-page {
+  background: var(--ls-secondary-background-color);
+}
+
+.embed-page .embed-header .mr-3 {
+  margin-right: 0;
+}
+
+.embed-page .embed-header svg path {
+  fill: var(--ct-page-embed-header-color);
+}
+
+.embed-page .embed-header a.page-ref {
+  font-size: 1.2em;
+  font-family: var(--ct-heading-font-family);
+  font-weight: var(--ct-heading-font-weight);
+}
+
+/* block embed */
+.embed-block,
+.cp__right-sidebar .embed-block {
+  background: var(--ls-secondary-background-color);
+}
+
+
+/* no display 
+
+.ls-page-title.flex-1.flex-row.w-full {
+  display: none;
+}*/
