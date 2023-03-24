@@ -9,7 +9,9 @@
 		- [Essence of Group Theory - YouTube](https://www.youtube.com/playlist?list=PLDcSwjT2BF_VuNbn8HiHZKKy59SgnIAeO)
 		- Chapter 1 and 3 from ((63971467-7987-4f85-989d-47792d81d4a2))
 	- ### Linear algebra
-		- Philosophy of linear algebra I
+		- Philosophy of linear algebra I -
+		  background-color:: blue
+		- Philosophy of linear algebra II - giving lore being objects
 		  background-color:: blue
 		- [Essence of linear algebra by 3Blue1Brown - YouTube](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
 		- #lectures [Linear Algebra by Dr. K.C. Sivakumar](https://www.youtube.com/playlist?list=PLbMVogVj5nJQ2vsW_hmyvVfO4GYWaaPp7)
@@ -17,8 +19,7 @@
 			- [Book website](https://linear.axler.net/), [Third ed pdf](http://library.lol/main/FA472BC434699EFE0F9BD5DC4E2E595E)
 			- [YouTube lectures](https://www.youtube.com/playlist?list=PLGAnmvB9m7zOBVCZBUUmSinFV0wEir2Vw)
 		- Chapters 9-15 from ((63971467-7987-4f85-989d-47792d81d4a2))
-		- Philosophy of linear algebra II
-		-
+		- Philosophy of linear algebra III
 	- ### Calculus, geometry and linear algebra in $\mathbb{R}^n$
 		- from ((63971467-7987-4f85-989d-47792d81d4a2))
 			- Chapters 26-30 - Calculus 101
@@ -37,10 +38,10 @@
 		- [Non-linear dynamics by Balki](https://www.youtube.com/watch?v=nh4TFzg30eQ&list=PLbMVogVj5nJQKk1E7OUQs_TcW_zQoaO4t)
 		- (short #lectures ) [Mechanics using the Action by T Paddy](https://youtube.com/playlist?list=PLlFCvH2vR5kRzC1LQtHy_MUAquC-tQiiW)
 	- ## Some math ✨
-		- Algebra
+		- ### Algebra
 			- #lectures [Abstract Algebra by Benedict Gross - YouTube](https://www.youtube.com/playlist?list=PLA58AC5CABC1321A3)
 			- #book Artin - Algebra
-		- Metric spaces
+		- ### Metric spaces
 		- [A Infinitely Large Napkin](https://venhance.github.io/napkin/Napkin.pdf)
 		  id:: 63971467-7987-4f85-989d-47792d81d4a2
 			- an introduction to a lots of fields of math! (NOT a textbook but a really nice book)
