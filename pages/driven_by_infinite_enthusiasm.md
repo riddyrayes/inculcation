@@ -25,6 +25,7 @@
 		- Chapters 9-15 from ((63971467-7987-4f85-989d-47792d81d4a2))
 		- Philosophy of linear algebra III - what is a vector?
 		  background-color:: blue
+		  collapsed:: true
 			- a vector is an element of a vector space. no more no less. so you can add them and scale them. but they *belong* somewhere. closure of their operations is also just as important as the operations themselves.
 				- now given a basis, lets say, we have a specific pov (coordinates) on the space
 				- if we wanna change the basis, the pov (coordinate) changes
