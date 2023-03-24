@@ -12,7 +12,7 @@
 	- ### big things: Vector spaces (Linear algebra)
 		- Philosophy of linear algebra I - finding happiness in small things
 		  background-color:: blue
-			- we see with just the little definition of a vector space, we can have things like **basis** using which we have ****
+			- we see with just the little definition of a vector space, we can have things like **existence of a basis** using which we have ****
 			- if you want more things, we can have more things! (inner product spaces, normed vector spaces)
 		- Philosophy of linear algebra II - giving lore being objects
 		  background-color:: blue
@@ -26,7 +26,9 @@
 		- Philosophy of linear algebra III - what is a vector?
 		  background-color:: blue
 			- a vector is an element of a vector space. no more no less. so you can add them and scale them. but they *belong* somewhere. closure of their operations is also just as important as the operations themselves.
+				- now if you want
 			- if you want more characteristic to a vector, like length (or angles) between vectors, then you say the vector is an element of a normed vector space (or an inner product space)
+			- this philosophy is opposite to "a vector is any inde that follows some given transformation rule"
 		- Philosophy of linear algebra IV - thinking objects as part of a whole/constructing the whole first
 		  background-color:: blue
 			- the set of all linear maps from $V$ to $W$ (written as $\mathsf{Hom}(V,W$) *is made into a vector space* (as a subspace of the set of all functions between them, which is also a vector space)!
