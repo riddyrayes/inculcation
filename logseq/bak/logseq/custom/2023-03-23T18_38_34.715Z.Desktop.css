@@ -140,8 +140,8 @@ body {
 }
 
 i {
-  color: var(--yellow);
   font-family: "Fira Code";
+  font-weight: 800;
 }
 
 b {
@@ -563,8 +563,8 @@ div.items-center::after,
 }
 
 
-/* no display 
+/* no display */
 
 .ls-page-title.flex-1.flex-row.w-full {
   display: none;
-}*/
+}

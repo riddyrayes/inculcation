@@ -3,26 +3,26 @@
 - # What to study? Where to study from?
   > (order is not strict, life is very *non-linear*)
 	- ### Groups
+		- One should start their journey with groups!
+		  background-color:: yellow
 		- [Group theory, abstraction, and the 196,883-dimensional monster - YouTube](https://www.youtube.com/watch?v=mH0oCDa74tE)
 		- [Essence of Group Theory - YouTube](https://www.youtube.com/playlist?list=PLDcSwjT2BF_VuNbn8HiHZKKy59SgnIAeO)
 		- Chapter 1 and 3 from ((63971467-7987-4f85-989d-47792d81d4a2))
-	- ### Linear Algebra
+	- ### Linear algebra
 		- [Essence of linear algebra by 3Blue1Brown - YouTube](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
 		- #lectures [Linear Algebra by Dr. K.C. Sivakumar](https://www.youtube.com/playlist?list=PLbMVogVj5nJQ2vsW_hmyvVfO4GYWaaPp7)
 		- #lectures #book Linear Algebra Done Right - Sheldon Axler
 			- [Book website](https://linear.axler.net/), [Third ed pdf](http://library.lol/main/FA472BC434699EFE0F9BD5DC4E2E595E)
 			- [YouTube lectures](https://www.youtube.com/playlist?list=PLGAnmvB9m7zOBVCZBUUmSinFV0wEir2Vw)
 		- Chapters 9-15 from ((63971467-7987-4f85-989d-47792d81d4a2))
-	- ### Calculus, Geometry and Linear Algebra in $\mathbb{R}^n$
-		- Chapters 26-30 from ((63971467-7987-4f85-989d-47792d81d4a2))
-			- Calculus 101
-		- [[Shifrin_Multivariable_Mathematics]]
-		- Chapters 42-45 from ((63971467-7987-4f85-989d-47792d81d4a2))
-			- Total derivatives and differential forms
-		- Chapters 2, 6-8 from ((63971467-7987-4f85-989d-47792d81d4a2))
-			- Topology
+	- ### Calculus, geometry and linear algebra in $\mathbb{R}^n$
+		- from ((63971467-7987-4f85-989d-47792d81d4a2))
+			- Chapters 26-30 - Calculus 101
+			- Chapters 42-45 - Total derivatives and differential forms
+			- Chapters 2, 6-8 - Topology
+		- [[Shifrin_Multivariable_Mathematics]] - a 2 semester course that covers linear algebra and (proper) multivariable calc
 	- ### Classical Mechanics, bit of statistical and chaos
-		- sadly no really good references imo
+		- sadly no really good references imo/ Morin, Goldstein etc all okayish
 			- try doing (Newtonian mechanics)
 				- rigid bodies
 				- central forces
@@ -33,57 +33,35 @@
 		- [Non-linear dynamics by Balki](https://www.youtube.com/watch?v=nh4TFzg30eQ&list=PLbMVogVj5nJQKk1E7OUQs_TcW_zQoaO4t)
 		- (short #lectures ) [Mechanics using the Action by T Paddy](https://youtube.com/playlist?list=PLlFCvH2vR5kRzC1LQtHy_MUAquC-tQiiW)
 	- ## Some math ✨
-		- #lectures [Abstract Algebra by Benedict Gross - YouTube](https://www.youtube.com/playlist?list=PLA58AC5CABC1321A3)
-		- #book Artin - Algebra
+		- Algebra
+			- #lectures [Abstract Algebra by Benedict Gross - YouTube](https://www.youtube.com/playlist?list=PLA58AC5CABC1321A3)
+			- #book Artin - Algebra
+		- Metric spaces
 		- [A Infinitely Large Napkin](https://venhance.github.io/napkin/Napkin.pdf)
 		  id:: 63971467-7987-4f85-989d-47792d81d4a2
 			- an introduction to a lots of fields of math! (NOT a textbook but a really nice book)
 		- ### Differential geometry in $\mathbb{R}^3$ proper with introducing yourself *topology*
-			- The lectures below has pre-requisites of basic topology and linear algebra, analysis in $\mathbb{R}^{n}$
-			- #lectures [ICTP Diploma - Differential Geometry - Claudio Arezzo - YouTube](https://www.youtube.com/playlist?list=PLLq_gUfXAnkl5JArcktbOrIUeR5rra-Gz)
+			- These lectures below has pre-requisites of basic topology and linear algebra, analysis in $\mathbb{R}^{n}$ #lectures [ICTP Diploma - Differential Geometry - Claudio Arezzo - YouTube](https://www.youtube.com/playlist?list=PLLq_gUfXAnkl5JArcktbOrIUeR5rra-Gz)
 		- You can definitely do rigorous algebra and analysis at this point here, its always a inculcating and ever increasing skill and knowledge-base: ((24df46a2-7dbd-4e68-9d3b-6fcb4d02c62f))
-	- ## I DECREE: DO MORE CLASSICAL!
-	  > choose any of them; they are all connected ;)
-		- ### Special Relativistic Mechanics and Electrodynamics
-		  > you can write the SIMPLEST action possible in a blank universe and DERIVE charged particle equation of motion and Maxwell-Heaviside equations (field equation of motion)
-			- #book LandauL volume II - absolute necessary for special relativity and electrodynamics, and GR
-				- there’s no introduction to electrodynamics better than Paddy and LandauL
-			- for more theory Griffiths, and for more pain: Jackson
-			- TODO [[Electromagnetic_Circuitry]] - practically no proper references, wanna do it problerly, seems it eventually leads to fluid(-like) equations
-		- ### Classical statistical mechanics
-		  > The main expectation from statistical mechanics is to derive all of thermodynamics with bare minimum assumptions from simple mechanics. But is this possible?
-			- Balakrishnan talks about it in Classical Physics course, but does he do it? no.
-			- [Lecture notes on Mathematical Statistical Mechanics (uni-tuebingen.de)](https://www.math.uni-tuebingen.de/de/forschung/maphy/lehre/ss-2019/statisticalphysics/dateien/lecture-notes.pdf) is a good one, talks about these things
-			- MIT, and general pedagogy go exactly opposite to the main expectation
-			- #book **Statistical Mechanics: From Thermodynamics to the Renormalization Group by James H. Luscombe** has a derivation of the combined first and second law of thermodynamics
-			- ((63b91d41-a8a0-44c1-a82b-f7f9838ca04d))
-			- Non-equilibrium StatMech has the **Boltzmann equation** which can be used to do a lot of stuff
-		- ### Fluid mechanics
-		  > why after electrodynamics? because this is crazy non-linear
-			- If you think you know what fluid mechanics is (from school, say), I guarantee that you do not!
-			- #lectures [Fluid Dynamics for Astrophysics - YouTube](https://www.youtube.com/watch?v=sS3atz1XdsI&list=PLlFCvH2vR5kSvwk53gINGDA9FyJbOX5kx)
-				- only decent, maybe won't convince you, maybe the below videos would...
-			- [Why 5/3 is a fundamental constant for turbulence - YouTube](https://www.youtube.com/watch?v=_UoTTq651dE)
-			- [Turbulent Flow is MORE Awesome Than Laminar Flow - YouTube](https://www.youtube.com/watch?v=5zI9sG3pjVU&t=842s)
-		- ### GR
-		  > for properly doing GR, you’ll need a lot of pre-req, and its all super cool math! But for now a physics taste of the matter will just be smooth.
-			- General Relativity and Cosmology by T Paddy
-			- if you wanna do it properly go for ((63afb3b0-55df-4e93-b06d-2a1b86b50dff))
+	- ## I DECREE: DO MORE CLASSICAL![[driven_by_infinite_enthusiasm/classical physics]]
+		- {{embed [[driven_by_infinite_enthusiasm/classical physics]]}}
 	- ## (only if you wanna do quantum)
 		- Quantum Physics by Balki
-		- Chapters 23-25 from ((63971467-7987-4f85-989d-47792d81d4a2))
+		- Quantum computation - chapters 23-25 from ((63971467-7987-4f85-989d-47792d81d4a2))
 	- ## Rigorous Constructions
 	  id:: 24df46a2-7dbd-4e68-9d3b-6fcb4d02c62f
 	  > Now that you see how deep things are, go back and focus on the details
-		- ### Construct spaces and do algebra and analysis
+		- construct spaces and do algebra and analysis
 		  id:: 977695ee-4120-4536-b875-6fb25c4772e7
-			- the idea is to *create* meaning, objects out of nothing..., even in familiar spaces
-		- ### Inside dim $=1$ spaces
+		- the idea is to *create* meaning, objects out of nothing..., even in familiar spaces and then going to familiar ones!
+		  background-color:: yellow
+		- ### Inside "dim $=1$" spaces
 			- Tao Analysis vol I, II
 			- Apostol Mathematical Analysis
 			- Rudin Analysis (Baby Rudin)
-		- ### Inside finite-dim $>1$ spaces
-			- #### do more inside $\mathbb{R}^{n}$
+		- ### Inside "dim $< \infty$" spaces
+			- #### do more inside $\mathbb{R}^{n}$ / analysis in finite-dim normed vector spaces / inner product spaces
+			  id:: 641c92ac-38ad-40b9-9094-f1cc30fd7256
 				- ##### Algebra
 					- Matrix algebra, tensor algebra, exterior algebra
 				- ##### Analysis in $\mathbb{R}^{n}$
@@ -91,7 +69,6 @@
 					- Integrating: Differential forms
 				- ##### Differential geometry of submanifolds of $\mathbb{R}^{n}$
 					- #lecturenotes [diffgeo.pdf (ethz.ch)](https://people.math.ethz.ch/~salamon/PREPRINTS/diffgeo.pdf) One can distinguish extrinsic differential geometry and intrinsic differential geometry. The former restricts attention to submanifolds of Euclidean space while the latter studies manifolds equipped with a Riemannian metric. The extrinsic theory is more accessible because we can visualize curves and surfaces in $\mathbb{R}^{3}$ , but some topics can best be handled with the intrinsic theory. ...
-			- #### Analysis in finite-dim normed vector spaces
 		- ### *Measure spaces* (measure theory)
 		- > Go outside of $\mathbb{R}^{n}$
 			- there are two routes:
@@ -104,15 +81,16 @@
 			- #lectures [Frederic Schuller -International Winter School on Gravity and Light 2015](https://www.youtube.com/playlist?list=PLFeEvEPtX_0S6vxxiiNPrJbLu9aK1UVC_)
 			  id:: 63afb3b0-55df-4e93-b06d-2a1b86b50dff
 			- #lectures Frederic Schuller - Lectures on the Geometric Anatomy of Theoretical Physics
-		- ### Inside infinite-dim spaces (functional analysis)
+		- ### Inside "dim $=\infty$" spaces (functional analysis)
 			- ofcourse I've no idea about this
 	- ## apply your new-found knowledge
 		- ### Dynamical systems
 			- #talk [Mathematics of Turbulent Flows: A Million Dollar Problem! by Edriss S Titi - YouTube](https://www.youtube.com/watch?v=VH4oawCiHPU)
 			- Hamiltonian systems and symplectic geometry
 			- PDEs
+			- Ergodic theory
+		- gauge theory
 		- #lectures Frederic Schuller - Quantum Theory
-		- Ergodic theory
 		- #lecturenotes Use measure theory to do [Classical Equilibrium Statistical Mechanics](https://warwick.ac.uk/fac/sci/maths/people/staff/stefan_adams/lecturenotestvi/cdias-adams-30.pdf)
 		  id:: 63b91d41-a8a0-44c1-a82b-f7f9838ca04d
 		- Probability
