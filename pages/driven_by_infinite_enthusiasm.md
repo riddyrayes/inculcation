@@ -24,8 +24,8 @@
 		- Chapters 9-15 from ((63971467-7987-4f85-989d-47792d81d4a2))
 		- Philosophy of linear algebra III - what is a vector?
 		  background-color:: blue
-			- a vector is an element of a vector space. no more no less. so you can add them and scale them. but they *belong* somewhere. their closure is also just as important
-			- if you want more characteristic to a vector
+			- a vector is an element of a vector space. no more no less. so you can add them and scale them. but they *belong* somewhere. closure of their operations is also just as important as the operations themselves.
+			- if you want more characteristic to a vector, like length (or angles) between vectors, then you say the vector is an element of a normed vector space (or an inner product space)
 		- Philosophy of linear algebra IV - thinking objects as part of a whole/constructing the whole first
 		  background-color:: blue
 			- the set of all linear maps from $V$ to $W$ (written as $\mathsf{Hom}(V,W$) *is made into a vector space* (as a subspace of the set of all functions between them, which is also a vector space)!
