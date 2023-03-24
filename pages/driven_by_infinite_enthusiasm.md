@@ -21,7 +21,7 @@
 			- Chapters 42-45 - Total derivatives and differential forms
 			- Chapters 2, 6-8 - Topology
 		- [[Shifrin_Multivariable_Mathematics]] - a 2 semester course that covers linear algebra and (proper) multivariable calc
-	- ### Classical Mechanics, bit of statistical and chaos
+	- ### Classical mechanics, bit of statistical and chaos
 		- sadly no really good references imo/ Morin, Goldstein etc all okayish
 			- try doing (Newtonian mechanics)
 				- rigid bodies
