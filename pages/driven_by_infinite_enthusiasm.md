@@ -30,10 +30,11 @@
 				- if we wanna change the basis, the pov (coordinate) changes
 				- but that's just how we look at things! doesn't really effect the "sacred space"
 				- this also implies that the transformation of the pov (coordinates) must follow certain rule (must be linear transformations) that **preserve the structure of the space**
+					- because if we can add vectors, then the **addition of two vector is sacred**, they must not depend on the pov
 			- if you want more characteristic to a vector, like length (or angles) between vectors, then you say the vector is an element of a normed vector space (or an inner product space)
 				- again the change of pov must follow certain rule that **preserve the structure of the space**
-					- because if we can measure lengths of vectors, then the **lengths are sacred too**
-			- this philosophy is opposite to "a vector is any set of coordinates that follows some given transformation rule"
+					- because if we can measure lengths of vectors, then the **lengths are sacred too**, they must not depend on the pov
+			- this philosophy is opposite to "a vector(or tensor) is a specified set of numbers that follows some given transformation rule" which definite works
 		- Philosophy of linear algebra IV - thinking objects as part of a whole/constructing the whole first
 		  background-color:: blue
 			- the set of all linear maps from $V$ to $W$ (written as $\mathsf{Hom}(V,W$) *is made into a vector space* (as a subspace of the set of all functions between them, which is also a vector space)!
