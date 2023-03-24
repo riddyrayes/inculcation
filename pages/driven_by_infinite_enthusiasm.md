@@ -12,7 +12,8 @@
 	- ### big things: Vector spaces (Linear algebra)
 		- Philosophy of linear algebra I - finding happiness in small things
 		  background-color:: blue
-			- we see with just the little definition of a vector space, we can have
+			- we see with just the little definition of a vector space, we can have things like **basis**
+			-
 		- Philosophy of linear algebra II - giving lore being objects
 		  background-color:: blue
 			- matrices
@@ -29,6 +30,8 @@
 		- Philosophy of linear algebra IV - thinking objects as part of a whole/constructing the whole first
 		  background-color:: blue
 			- the set of all linear maps from $V$ to $W$ (written as $\mathsf{Hom}(V,W$) *is made into a vector space* (as a subspace of the set of all functions between them, which is also a vector space)!
+			-
+	- ((641d830b-d3b2-4438-bbc6-1879df31734d))
 	- ### Calculus, geometry and linear algebra in $\mathbb{R}^n$
 		- from ((63971467-7987-4f85-989d-47792d81d4a2))
 			- Chapters 26-30 - Calculus 101
@@ -61,6 +64,7 @@
 	- ### Differential geometry in $\mathbb{R}^3$ proper with introducing yourself *topology*
 		- These lectures below has pre-requisites of basic topology and linear algebra, analysis in $\mathbb{R}^{n}$ #lectures [ICTP Diploma - Differential Geometry - Claudio Arezzo - YouTube](https://www.youtube.com/playlist?list=PLLq_gUfXAnkl5JArcktbOrIUeR5rra-Gz)
 	- You can definitely start with rigorous algebra and analysis at this point here, its always a inculcating and ever increasing skill and knowledge-base: ((24df46a2-7dbd-4e68-9d3b-6fcb4d02c62f))
+	  id:: 641d830b-d3b2-4438-bbc6-1879df31734d
 - ## I DECREE: DO MORE CLASSICAL![[driven_by_infinite_enthusiasm/classical physics]]
   collapsed:: true
 	- {{embed [[driven_by_infinite_enthusiasm/classical physics]]}}
