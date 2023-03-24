@@ -47,8 +47,9 @@
 			- an introduction to a lots of fields of math! (NOT a textbook but a really nice book)
 		- ### Differential geometry in $\mathbb{R}^3$ proper with introducing yourself *topology*
 			- These lectures below has pre-requisites of basic topology and linear algebra, analysis in $\mathbb{R}^{n}$ #lectures [ICTP Diploma - Differential Geometry - Claudio Arezzo - YouTube](https://www.youtube.com/playlist?list=PLLq_gUfXAnkl5JArcktbOrIUeR5rra-Gz)
-		- You can definitely do rigorous algebra and analysis at this point here, its always a inculcating and ever increasing skill and knowledge-base: ((24df46a2-7dbd-4e68-9d3b-6fcb4d02c62f))
+		- You can definitely start with rigorous algebra and analysis at this point here, its always a inculcating and ever increasing skill and knowledge-base: ((24df46a2-7dbd-4e68-9d3b-6fcb4d02c62f))
 	- ## I DECREE: DO MORE CLASSICAL![[driven_by_infinite_enthusiasm/classical physics]]
+	  collapsed:: true
 		- {{embed [[driven_by_infinite_enthusiasm/classical physics]]}}
 	- ## (only if you wanna do quantum)
 		- Quantum Physics by Balki
@@ -56,10 +57,11 @@
 	- ## Rigorous Constructions
 	  id:: 24df46a2-7dbd-4e68-9d3b-6fcb4d02c62f
 	  > Now that you see how deep things are, go back and focus on the details
-		- construct spaces and do algebra and analysis
+		- Philosophy I: construct spaces and do algebra and analysis
+		  background-color:: blue
 		  id:: 977695ee-4120-4536-b875-6fb25c4772e7
-		- the idea is to *create* meaning, objects out of nothing..., even in familiar spaces and then going to familiar ones!
-		  background-color:: yellow
+			- the idea is to *create* meaning, objects out of nothing..., even in familiar spaces and then going to familiar ones!
+			  background-color:: yellow
 		- ### Inside "dim $=1$" spaces
 			- Tao Analysis vol I, II
 			- Apostol Mathematical Analysis
@@ -80,7 +82,7 @@
 				- analysis on manifolds (classical mechanics, Hamiltonian systems)
 				- analysis on function spaces (quantum mechanics, PDEs)
 		- ### Out on (smooth) manifolds
-		  > this is the *intrinsic differential geometry* AKA Analysis on Manifolds
+		  > this is the *intrinsic differential geometry* AKA analysis on Manifolds AKA differential geometry
 			- #book Lee - Smooth manifolds
 			- #book Boothby - manifolds
 			- #lectures [Frederic Schuller -International Winter School on Gravity and Light 2015](https://www.youtube.com/playlist?list=PLFeEvEPtX_0S6vxxiiNPrJbLu9aK1UVC_)
