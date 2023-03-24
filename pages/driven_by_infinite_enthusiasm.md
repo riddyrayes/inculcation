@@ -32,6 +32,7 @@
 				- this also implies that the transformation of the pov (coordinates) must follow certain rule (must be linear transformations) that **preserve the structure of the space**
 			- if you want more characteristic to a vector, like length (or angles) between vectors, then you say the vector is an element of a normed vector space (or an inner product space)
 				- again the change of pov must follow certain rule that **preserve the structure of the space**
+					- because if we can measure lengths of vectors, then the **lengths are sacred too**
 			- this philosophy is opposite to "a vector is any set of coordinates that follows some given transformation rule"
 		- Philosophy of linear algebra IV - thinking objects as part of a whole/constructing the whole first
 		  background-color:: blue
@@ -85,7 +86,8 @@
 	  id:: 977695ee-4120-4536-b875-6fb25c4772e7
 		- the idea is to *create* meaning, objects out of nothing..., even in familiar spaces and then going to unfamiliar ones!
 		  background-color:: yellow
-		-
+		- reminder: nothing (even rigor) is more scary than doing wrong stuff!
+		  background-color:: pink
 	- ### Inside "dim $=1$" spaces
 		- Construct reals from integers -> rationals
 		  background-color:: green
